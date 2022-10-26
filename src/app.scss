@@ -1,0 +1,26 @@
+@import 'bootstrap/scss/bootstrap.scss';
+@import 'bootstrap/scss/bootstrap-grid.scss';
+
+html,
+body {
+    background-color: lightgray;
+}
+
+
+.container {
+    background-color: lightgray;
+}
+
+.feature {
+    background-color: white;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.feature [data-status="ok"] {
+    color: green;
+}
+
+.feature [data-status="ko"] {
+    color: red;
+}

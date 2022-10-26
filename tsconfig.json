@@ -1,0 +1,40 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "esnext"
+        ],
+        "strictPropertyInitialization": false,
+        "allowJs": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "disableSizeLimit": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "strictNullChecks": false,
+        "forceConsistentCasingInFileNames": true,
+        "noFallthroughCasesInSwitch": true,
+        "experimentalDecorators": true, // Needed by the WebComponents
+        "useDefineForClassFields": false, // Needed by the WebComponents
+        "module": "esnext",
+        "moduleResolution": "node",
+        "types": [
+            "jasmine"
+        ],
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": false,
+    },
+    "include": [
+        "./src/**/*.tsx",
+        "./src/**/*.ts",
+        "./src/**/*.jsx",
+        "./src/**/*.js"
+    ],
+    "exclude": [
+        "./node_modules/**",
+        "./dist/**"
+    ]
+}
