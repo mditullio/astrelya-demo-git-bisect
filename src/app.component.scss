@@ -1,0 +1,21 @@
+@import 'bootstrap/scss/bootstrap.scss';
+@import 'bootstrap/scss/bootstrap-grid.scss';
+
+html,
+body {
+    background-color: lightgray;
+}
+
+app-component {
+
+    .container {
+        background-color: lightgray;
+    }
+
+    .item {
+        background-color: white;
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+}
