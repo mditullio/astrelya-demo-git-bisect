@@ -1,7 +1,7 @@
 import './app.scss';
 import appHTML from './app.html';
 
-const version = '1.0'
+const version = '1.1'
 const title = `My Application (v${version})`;
 
 document.title = title;
